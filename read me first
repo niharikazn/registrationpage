@@ -1,0 +1,7 @@
+this file will work in localhost
+userrame root
+pass ""
+ the sql database needed is 
+ dbname register
+ table reg
+ import the sql file directly
