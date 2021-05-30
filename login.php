@@ -56,7 +56,7 @@ $conn->close();
                             </div>
                             <div class="form-group form-button">
                                 <input type="submit" name="usignup" id="signup" class="form-submit" value="Sign In"/>
-                                <a href="">&nbsp; &nbsp;Not a Member</a>
+                                <a href="index.php">&nbsp; &nbsp;Not a Member</a>
                             </div>
                             
                         </form>
