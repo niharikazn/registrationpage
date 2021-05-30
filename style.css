@@ -1,0 +1,138 @@
+.main {
+  background: #f7d1ee;
+  padding: 100px 0; }
+body {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #222;
+  background: #f7d1ee;
+  font-weight: 600;
+  font-family:Georgia, 'Times New Roman', Times, serif }
+
+.container {
+  width: 900px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  }
+
+h2{
+  font-size:4rem;
+  font-weight: bolder;
+  color: rgb(95, 1, 83);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.display-flex {
+  justify-content: space-between;
+  align-items: center;}
+
+.display-flex-center {
+  justify-content: center;
+  align-items: center;}
+
+.position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%; }
+
+.signup {
+  margin-bottom: 150px; }
+
+.signup-content {
+  padding: 25px 0; }
+
+.signup-form {
+  width: 50%;
+  overflow: hidden; }
+.form-title {
+  margin-bottom: 33px; }
+.form-submit {
+  display: inline-block;
+  background: rgb(95, 1, 83);
+  color: #fff;
+  font-size:1.5rem;
+  border-bottom: none;
+  width: auto;
+  padding: 15px 39px;
+  border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer; }
+
+  .form-submit:hover {
+    background: rgb(209, 74, 191); }
+
+.signup-form {
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-left: 34px; }
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden; }
+
+  input:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: none;
+  background-color: rgb(253, 243, 250); }
+  
+input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 1rem 8rem;
+  font-family: Poppins;
+  box-sizing: border-box; }
+
+input::-webkit-input-placeholder {
+  color: #999;
+  }
+
+label {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #222; }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: calc( 100% - 30px);
+    max-width: 100%; } }
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px; } }
+@media screen and (max-width: 768px) {
+  .signup-content {
+    flex-direction: column;
+ }
+
+  .signup-form {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    /* box-sizing: border-box; */
+    padding: 0 30px; }
+
+  .signup-form{
+    width: auto; }
+
+  .form-button {
+    text-align: center; }
+
+  .form-title {
+    text-align: center; } }
+.copy-right-card{
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: black;
+}
+footer{
+  background-color: rgb(15, 10, 10);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
